@@ -27,7 +27,8 @@ function! editing_modes#CodingMode()
     set nolinebreak
     set number
     if has('gui_running')
-        set guifont=Meslo\ LG\ S\ DZ:h14
+        " set guifont=Meslo\ LG\ S\ DZ:h14
+        set guifont=Inconsolata:h16
     endif
     if &fu
         set columns=120
